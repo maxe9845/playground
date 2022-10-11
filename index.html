@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn CSS</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+<!--
+            <h1>H1 You are the CSS to my HTML</h1>
+            <h2>H2 Anyone skate out there?</h2>
+            <h3>H3 I wish redbull gave me wings</h3>
+-->
+            
+            <div class="row">
+                <div class="col-3">
+                    <div class="lightdarkbutton">
+                        <label class="switch">
+                            <input type="checkbox"/>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>  
+                <div class="col-6">
+                    <img src="lion.jpeg" class="borderImg">
+                </div>  
+                <div class="col-3">
+                    <img src="lion.jpeg" class="borderImg">
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <img src="lion.jpeg" class="borderImg">
+                </div>  
+                <div class="col-7">
+                    <img src="lion.jpeg" class="borderImg">
+                </div>  
+                <div class="col-4">
+                    <img src="lion.jpeg" class="borderImg">
+                </div>  
+            </div>            
+<!--
+            <ul>
+                <li>I love to skate</li>
+                <li>My favorite skate tricks</li>
+                    <ol>
+                        <li>306 flips</li>
+                        <li>backside nose blunts</li>
+                    </ol>
+                <li>skate till you can't walk</li>
+            </ul>
+-->
+            
+
+        </div>
+<!--        <h1>H1 I should build a tree swing</h1>
+        <h2>H2 I hope the rope doesn't break</h2>
+        <div class="formatting">
+            <div><b>I am so bold</b></div>
+            <div><i>I am leaning over</i></div>
+            <div><em>I am so emphasized</em></div>
+            <div><strong>I am so strong</strong></div>
+            <div><del>Please don''t delete me</del></div>
+            <div><mark>Mark my words</mark></div>
+        </div>
+        <a href="#">Click me now</a>
+-->
+    </body>
+</html>
+
+<script>
+    const input = document.querySelector("input");
+    const body = document.querySelector("body");
+    
+    const toggleThemeMode = () => {
+        body.classList.toggle("dark");  
+    };
+    
+    input.onchange = toggleThemeMode;
+</script>
